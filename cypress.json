@@ -4,9 +4,11 @@
     "codeCoverage": {
       "url": "/api/__coverage__"
     },
-    "reporter": "cypress-sonarqube-reporter",
-	"reporterOptions": {
-    "outputDir":"./cypress/integration/reporter/res.xml"
-	}
+  "reporter": "mochawesome",
+  "reporterOptions": {
+      "overwrite": false,
+      "html": false,
+      "json": true
+  }
   }
 }
