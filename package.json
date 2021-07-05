@@ -17,6 +17,9 @@
     "babel-plugin-istanbul": "5.2.0",
     "cypress-sonarqube-reporter": "^1.7.1",
     "isomorphic-unfetch": "3.1.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
     "next": "9.5.5",
     "react": "16.14.0",
     "react-dom": "16.14.0"
