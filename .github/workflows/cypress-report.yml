@@ -22,7 +22,7 @@ jobs:
           $(npm bin)/cypress verify
 
       - name: Run Cypress tests
-        run: npm run test:chrome
+        run: npm run e2e
         continue-on-error: true
 
       - name: Copy test execution videos and screenshots
