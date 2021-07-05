@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testExecutions version="1">
+  <file path="cypress/integration/spec.js">
+    <testCase name="Batman TV shows - API works" duration="842"/>
+    <testCase name="Batman TV shows - has list of shows" duration="3691"/>
+    <testCase name="Batman TV shows - goes to the first post" duration="4056"/>
+    <testCase name="Batman TV shows - has About page" duration="3682"/>
+  </file>
+</testExecutions>
