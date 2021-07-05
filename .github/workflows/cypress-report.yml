@@ -25,10 +25,10 @@ jobs:
         run: npm install babel-plugin-istanbul, npm audit fix, npm run e2e
         continue-on-error: true
       
-      - name: Copy test execution videos and screenshots
-        run: |
-          mkdir public
-          cp -r cypress/videos public/videos
+#       - name: Copy test execution videos and screenshots
+#         run: |
+#           mkdir public
+#           cp -r cypress/videos public/videos
 
 #       - name: Merge test reports
 #         run: npm run combine:report
