@@ -11,7 +11,9 @@
     "e2e": "start-test dev 3000 cy:run",
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome",
-    "check-coverage-limits": "check-total --min 100"
+    "check-coverage-limits": "check-total --min 100",
+    "combine:report": "mochawesome-merge ./mochawesome-report/*.json -o index.json",
+    "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "dependencies": {
     "babel-plugin-istanbul": "5.2.0",
