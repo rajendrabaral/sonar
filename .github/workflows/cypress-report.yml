@@ -22,7 +22,7 @@ jobs:
           $(npm bin)/cypress verify
 
       - name: Run Cypress tests
-        run: npm install babel-plugin-istanbul, npm audit fix, npm run e2e
+        run:  npm run e2e
         continue-on-error: true
       
       - name: Copy test execution videos and screenshots
@@ -31,11 +31,11 @@ jobs:
           cp -r cypress/videos public/videos
           cp -r cypress/screenshots public/screenshots
 
-      - name: Merge test reports
-        run: npm run combine:report
+#       - name: Merge test reports
+#         run: npm run combine:report
 
-      - name: Generate HTML report
-        run: npm run generate:report
+#       - name: Generate HTML report
+#         run: npm run generate:report
       
       - name: Deploy report page to GitHub Page
         uses: peaceiris/actions-gh-pages@v3
