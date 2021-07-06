@@ -1,10 +1,11 @@
 {
+  "projectId": "non4bx",
   "baseUrl": "http://localhost:3000",
   "env": {
     "codeCoverage": {
       "url": "/api/__coverage__"
     },
-   "projectId": "non4bx",
+
   "reporter": "mochawesome",
   "reporterOptions": {
       "overwrite": false,
