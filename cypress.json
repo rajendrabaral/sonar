@@ -4,6 +4,7 @@
     "codeCoverage": {
       "url": "/api/__coverage__"
     },
+   "projectId": "non4bx",
   "reporter": "mochawesome",
   "reporterOptions": {
       "overwrite": false,
