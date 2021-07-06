@@ -10,7 +10,7 @@
     "start": "next start",
     "e2e": "start-test dev 3000 cy:run",
     "cy:open": "cypress open",
-    "cy:run": "cypress run --browser chrome",
+    "cy:run": "cypress run --record --key c1e89e79-2c5c-4ec6-b5ff-67232076b01c --browser chrome",
     "check-coverage-limits": "check-total --min 100",
     "combine:report": "mochawesome-merge ./mochawesome-report/*.json -o index.json",
     "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
